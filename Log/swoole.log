@@ -1,0 +1,170 @@
+[2019-10-30 23:10:45 *6329.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-10-30 23:10:45 $6326.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-10-30 23:10:45 *6334.5]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-10-30 23:10:45 *6336.7]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-10-30 23:10:45 *6333.4]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-10-30 23:10:45 *6330.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-10-30 23:10:45 *6331.2]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-10-30 23:10:45 *6332.3]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-10-30 23:10:45 *6335.6]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-10-30 23:24:48 $6435.0]	WARNING	swManager_check_exit_status: worker#8[pid=6446] abnormal exit, status=255, signal=0
+[2019-11-28 22:40:10 *8608.1]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Socket\Exception\ControllerPoolEmpty: controller pool empty for \App\WebSocket\Index in /www/wwwroot/easyswoole/vendor/easyswoole/socket/src/Dispatcher.php:89
+Stack trace:
+#0 /www/wwwroot/easyswoole/EasySwooleEvent.php(76): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), '{"class":"Index...', Object(Swoole\WebSocket\Frame))
+#1 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#2 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php(134): call_user_func(Object(Closure), Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 {main}
+  thrown in /www/wwwroot/easyswoole/vendor/easyswoole/socket/src/Dispatcher.php on line 89
+[2019-11-28 22:40:10 $8604.0]	WARNING	swManager_check_exit_status: worker#1[pid=8608] abnormal exit, status=255, signal=0
+[2019-11-28 22:40:50 *8631.1]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Socket\Exception\ControllerPoolEmpty: controller pool empty for \App\WebSocket\Index in /www/wwwroot/easyswoole/vendor/easyswoole/socket/src/Dispatcher.php:89
+Stack trace:
+#0 /www/wwwroot/easyswoole/EasySwooleEvent.php(76): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), '{"class":"Index...', Object(Swoole\WebSocket\Frame))
+#1 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#2 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php(134): call_user_func(Object(Closure), Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 {main}
+  thrown in /www/wwwroot/easyswoole/vendor/easyswoole/socket/src/Dispatcher.php on line 89
+[2019-11-28 22:40:50 $8627.0]	WARNING	swManager_check_exit_status: worker#1[pid=8631] abnormal exit, status=255, signal=0
+[2019-11-28 23:14:56 $8829.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:14:56 *8833.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:14:56 *8832.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:14:56 *8834.2]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:14:56 *8838.6]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:14:56 *8839.7]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:14:56 *8836.4]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:14:56 *8835.3]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:14:56 *8837.5]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:52:33 $9219.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:52:33 *9227.5]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:52:33 *9223.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:52:33 *9224.2]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:52:33 *9229.7]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:52:33 *9222.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:52:33 *9226.4]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:52:33 *9225.3]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:52:33 *9228.6]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:55:53 *9282.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:55:53 *9287.5]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:55:53 *9286.4]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:55:53 *9283.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:55:53 *9288.6]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:55:53 *9284.2]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:55:53 $9279.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:55:53 *9285.3]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-28 23:55:53 *9289.7]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-01-07 16:09:02 $7394.0]	WARNING	swManager_loop: cannot reload task workers, task workers is not started
+[2020-01-07 16:10:00 $7476.0]	WARNING	swManager_loop: cannot reload task workers, task workers is not started
+[2020-01-08 09:56:06 $7088.0]	WARNING	swManager_loop: cannot reload task workers, task workers is not started
+[2020-01-08 09:57:15 $7164.0]	WARNING	swManager_loop: cannot reload task workers, task workers is not started
+[2020-01-08 09:57:49 $7164.0]	WARNING	swManager_loop: cannot reload task workers, task workers is not started
+[2020-01-08 16:17:05 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5946] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:05 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5951] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:05 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5952] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:05 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5953] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:05 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5954] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:05 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5955] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:05 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5956] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:05 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5957] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:05 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5958] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:05 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5959] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:05 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5960] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:05 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5961] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:05 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5962] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:05 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5963] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:05 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5964] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:05 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5965] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:05 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5966] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:05 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5967] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:05 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5968] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:06 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5969] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:06 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5970] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:06 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5971] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:06 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5972] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:06 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5973] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:06 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5974] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:06 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5975] abnormal exit, status=255, signal=0
+[2020-01-08 16:17:06 $5933.0]	WARNING	swManager_check_exit_status: worker#8[pid=5976] abnormal exit, status=255, signal=0
+[2020-01-08 16:19:12 $5998.0]	WARNING	swManager_check_exit_status: worker#8[pid=6011] abnormal exit, status=255, signal=0
+[2020-01-08 16:19:12 $5998.0]	WARNING	swManager_check_exit_status: worker#8[pid=6016] abnormal exit, status=255, signal=0
+[2020-01-08 16:19:12 $5998.0]	WARNING	swManager_check_exit_status: worker#8[pid=6017] abnormal exit, status=255, signal=0
+[2020-01-08 16:19:12 $5998.0]	WARNING	swManager_check_exit_status: worker#8[pid=6018] abnormal exit, status=255, signal=0
+[2020-01-08 16:19:12 $5998.0]	WARNING	swManager_check_exit_status: worker#8[pid=6019] abnormal exit, status=255, signal=0
+[2020-01-08 16:19:12 $5998.0]	WARNING	swManager_check_exit_status: worker#8[pid=6020] abnormal exit, status=255, signal=0
+[2020-01-08 16:19:12 $5998.0]	WARNING	swManager_check_exit_status: worker#8[pid=6021] abnormal exit, status=255, signal=0
+[2020-01-08 16:19:12 $5998.0]	WARNING	swManager_check_exit_status: worker#8[pid=6022] abnormal exit, status=255, signal=0
+[2020-01-08 16:19:12 $5998.0]	WARNING	swManager_check_exit_status: worker#8[pid=6023] abnormal exit, status=255, signal=0
+[2020-01-08 16:19:12 $5998.0]	WARNING	swManager_check_exit_status: worker#8[pid=6024] abnormal exit, status=255, signal=0
+[2020-01-08 16:19:12 $5998.0]	WARNING	swManager_check_exit_status: worker#8[pid=6025] abnormal exit, status=255, signal=0
+[2020-01-08 16:19:12 $5998.0]	WARNING	swManager_check_exit_status: worker#8[pid=6026] abnormal exit, status=255, signal=0
+[2020-01-08 16:19:12 $5998.0]	WARNING	swManager_check_exit_status: worker#8[pid=6027] abnormal exit, status=255, signal=0
+[2020-01-08 17:28:09 *6224.3]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Smtp\Exception\Exception: 535 Error: authentication failed
+ in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php:140
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php(82): EasySwoole\Smtp\MailerClient->recvCodeCheck('235')
+#1 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/Mailer.php(36): EasySwoole\Smtp\MailerClient->send('1278077589@qq.c...', Object(EasySwoole\Smtp\Message\Html))
+#2 /vagrant_data/easyswoole/App/HttpController/Api/Test.php(270): EasySwoole\Smtp\Mailer->sendTo('1278077589@qq.c...', Object(EasySwoole\Smtp\Message\Html))
+#3 {main}
+  thrown in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php on line 140
+[2020-01-08 17:28:09 $6216.0]	WARNING	swManager_check_exit_status: worker#3[pid=6224] abnormal exit, status=255, signal=0
+[2020-01-08 17:29:08 *6247.3]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Smtp\Exception\Exception: 535 Error: authentication failed
+ in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php:140
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php(82): EasySwoole\Smtp\MailerClient->recvCodeCheck('235')
+#1 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/Mailer.php(36): EasySwoole\Smtp\MailerClient->send('1278077589@qq.c...', Object(EasySwoole\Smtp\Message\Html))
+#2 /vagrant_data/easyswoole/App/HttpController/Api/Test.php(270): EasySwoole\Smtp\Mailer->sendTo('1278077589@qq.c...', Object(EasySwoole\Smtp\Message\Html))
+#3 {main}
+  thrown in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php on line 140
+[2020-01-08 17:29:08 $6239.0]	WARNING	swManager_check_exit_status: worker#3[pid=6247] abnormal exit, status=255, signal=0
+[2020-01-08 17:32:54 *6289.3]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Smtp\Exception\Exception: 535 Error: authentication failed
+ in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php:140
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php(82): EasySwoole\Smtp\MailerClient->recvCodeCheck('235')
+#1 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/Mailer.php(36): EasySwoole\Smtp\MailerClient->send('1278077589@qq.c...', Object(EasySwoole\Smtp\Message\Html))
+#2 /vagrant_data/easyswoole/App/HttpController/Api/Test.php(270): EasySwoole\Smtp\Mailer->sendTo('1278077589@qq.c...', Object(EasySwoole\Smtp\Message\Html))
+#3 {main}
+  thrown in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php on line 140
+[2020-01-08 17:32:54 $6281.0]	WARNING	swManager_check_exit_status: worker#3[pid=6289] abnormal exit, status=255, signal=0
+[2020-01-08 17:45:10 *6336.3]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Smtp\Exception\Exception: 535 Error: 请使用授权码登录。详情请看: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256
+ in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php:140
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php(82): EasySwoole\Smtp\MailerClient->recvCodeCheck('235')
+#1 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/Mailer.php(36): EasySwoole\Smtp\MailerClient->send('18715160785@163...', Object(EasySwoole\Smtp\Message\Html))
+#2 /vagrant_data/easyswoole/App/HttpController/Api/Test.php(292): EasySwoole\Smtp\Mailer->sendTo('18715160785@163...', Object(EasySwoole\Smtp\Message\Html))
+#3 {main}
+  thrown in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php on line 140
+[2020-01-08 17:45:10 $6328.0]	WARNING	swManager_check_exit_status: worker#3[pid=6336] abnormal exit, status=255, signal=0
+[2020-01-08 17:47:33 *6359.3]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Smtp\Exception\Exception: 501 mail from address must be same as authorization user
+ in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php:140
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php(85): EasySwoole\Smtp\MailerClient->recvCodeCheck('250')
+#1 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/Mailer.php(36): EasySwoole\Smtp\MailerClient->send('18715160785@163...', Object(EasySwoole\Smtp\Message\Html))
+#2 /vagrant_data/easyswoole/App/HttpController/Api/Test.php(292): EasySwoole\Smtp\Mailer->sendTo('18715160785@163...', Object(EasySwoole\Smtp\Message\Html))
+#3 {main}
+  thrown in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php on line 140
+[2020-01-08 17:47:33 $6351.0]	WARNING	swManager_check_exit_status: worker#3[pid=6359] abnormal exit, status=255, signal=0
+[2020-01-08 17:50:10 *6382.3]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Smtp\Exception\Exception: 535 Error: authentication failed
+ in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php:140
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php(82): EasySwoole\Smtp\MailerClient->recvCodeCheck('235')
+#1 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/Mailer.php(36): EasySwoole\Smtp\MailerClient->send('18715160785@163...', Object(EasySwoole\Smtp\Message\Html))
+#2 /vagrant_data/easyswoole/App/HttpController/Api/Test.php(292): EasySwoole\Smtp\Mailer->sendTo('18715160785@163...', Object(EasySwoole\Smtp\Message\Html))
+#3 {main}
+  thrown in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php on line 140
+[2020-01-08 17:50:10 $6374.0]	WARNING	swManager_check_exit_status: worker#3[pid=6382] abnormal exit, status=255, signal=0
+[2020-01-08 17:51:26 *6405.3]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Smtp\Exception\Exception: 535 Error: authentication failed
+ in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php:140
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php(82): EasySwoole\Smtp\MailerClient->recvCodeCheck('235')
+#1 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/Mailer.php(36): EasySwoole\Smtp\MailerClient->send('18715160785@163...', Object(EasySwoole\Smtp\Message\Html))
+#2 /vagrant_data/easyswoole/App/HttpController/Api/Test.php(292): EasySwoole\Smtp\Mailer->sendTo('18715160785@163...', Object(EasySwoole\Smtp\Message\Html))
+#3 {main}
+  thrown in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php on line 140
+[2020-01-08 17:51:26 $6397.0]	WARNING	swManager_check_exit_status: worker#3[pid=6405] abnormal exit, status=255, signal=0
+[2020-01-08 17:51:37 *6428.3]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Smtp\Exception\Exception: 535 Error: 请使用授权码登录。详情请看: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256
+ in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php:140
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php(82): EasySwoole\Smtp\MailerClient->recvCodeCheck('235')
+#1 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/Mailer.php(36): EasySwoole\Smtp\MailerClient->send('18715160785@163...', Object(EasySwoole\Smtp\Message\Html))
+#2 /vagrant_data/easyswoole/App/HttpController/Api/Test.php(292): EasySwoole\Smtp\Mailer->sendTo('18715160785@163...', Object(EasySwoole\Smtp\Message\Html))
+#3 {main}
+  thrown in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php on line 140
+[2020-01-08 17:51:37 $6420.0]	WARNING	swManager_check_exit_status: worker#3[pid=6428] abnormal exit, status=255, signal=0

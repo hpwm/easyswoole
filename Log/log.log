@@ -1,0 +1,523 @@
+[2019-10-29 23:51:18][DEBUG][ERROR] : [listen /www/wwwroot/easyswoole/Temp/TaskWorker.fcce5581d6be0f3a066f7bc0ea2582270.sock fail at class EasySwoole\Task\Worker at file:/www/wwwroot/easyswoole/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php line:32]
+[2019-10-29 23:51:18][DEBUG][ERROR] : [listen /www/wwwroot/easyswoole/Temp/TaskWorker.fcce5581d6be0f3a066f7bc0ea2582271.sock fail at class EasySwoole\Task\Worker at file:/www/wwwroot/easyswoole/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php line:32]
+[2019-10-29 23:51:18][DEBUG][ERROR] : [listen /www/wwwroot/easyswoole/Temp/TaskWorker.fcce5581d6be0f3a066f7bc0ea2582273.sock fail at class EasySwoole\Task\Worker at file:/www/wwwroot/easyswoole/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php line:32]
+[2019-10-29 23:51:18][DEBUG][ERROR] : [listen /www/wwwroot/easyswoole/Temp/TaskWorker.fcce5581d6be0f3a066f7bc0ea2582272.sock fail at class EasySwoole\Task\Worker at file:/www/wwwroot/easyswoole/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php line:32]
+[2019-10-30 00:42:45][DEBUG][NOTICE] : [Non-static method EasySwoole\Task\Task::async() should not be called statically at file:/www/wwwroot/easyswoole/App/HttpController/Api/CodeGenerator.php line:25]
+[2019-10-30 23:06:29][DEBUG][NOTICE] : [Undefined index: data at file:/www/wwwroot/easyswoole/App/Task/TaskBase.php line:20]
+[2019-10-30 23:09:18][DEBUG][ERROR] : [Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(114): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/wwwroot/easyswoole/easyswoole(24): EasySwoole\EasySwoole\Comm at file:/www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2019-10-30 23:10:12][DEBUG][ERROR] : [Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(114): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/wwwroot/easyswoole/easyswoole(24): EasySwoole\EasySwoole\Comm at file:/www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2019-10-30 23:24:48][DEBUG][ERROR] : [Uncaught Error: Call to undefined function App\Service\get_microtime() in /www/wwwroot/easyswoole/App/Service/TaskService.php:15
+Stack trace:
+#0 {main}
+  thrown at file:/www/wwwroot/easyswoole/App/Service/TaskService.php line:15]
+[2019-11-07 19:42:40][DEBUG][WARNING] : [Illegal string offset 'rule' at file:/www/wwwroot/easyswoole/vendor/easyswoole/validate/src/Validate.php line:62]
+[2019-11-07 20:07:58][DEBUG][NOTICE] : [Undefined property: App\Lib\Validate\BasicCheck::$rule at file:/www/wwwroot/easyswoole/App/Lib/Validate/BaseValidate.php line:33]
+[2019-11-23 00:12:43][DEBUG][ERROR] : [Swoole\Server::start(): failed to start server. Error: swPort_listen(:102): listen(0.0.0.0:9503, 512) failed, Error: Address already in use[98] at file:/www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php line:140]
+[2019-11-28 22:16:22][DEBUG][WARNING] : [Object of class EasySwoole\VerifyCode\Result could not be converted to string at file:/www/wwwroot/easyswoole/App/HttpController/Api/Test.php line:31]
+[2019-11-28 22:40:10][DEBUG][ERROR] : [Uncaught EasySwoole\Socket\Exception\ControllerPoolEmpty: controller pool empty for \App\WebSocket\Index in /www/wwwroot/easyswoole/vendor/easyswoole/socket/src/Dispatcher.php:89
+Stack trace:
+#0 /www/wwwroot/easyswoole/EasySwooleEvent.php(76): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), '{"class":"Index...', Object(Swoole\WebSocket\Frame))
+#1 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#2 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php(134): call_user_func(Object(Closure), Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 {main}
+  thrown at file:/www/wwwroot/easyswoole/vendor/easyswoole/socket/src/Dispatcher.php line:89]
+[2019-11-28 22:40:50][DEBUG][ERROR] : [Uncaught EasySwoole\Socket\Exception\ControllerPoolEmpty: controller pool empty for \App\WebSocket\Index in /www/wwwroot/easyswoole/vendor/easyswoole/socket/src/Dispatcher.php:89
+Stack trace:
+#0 /www/wwwroot/easyswoole/EasySwooleEvent.php(76): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), '{"class":"Index...', Object(Swoole\WebSocket\Frame))
+#1 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#2 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php(134): call_user_func(Object(Closure), Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 {main}
+  thrown at file:/www/wwwroot/easyswoole/vendor/easyswoole/socket/src/Dispatcher.php line:89]
+[2019-11-28 23:11:22][DEBUG][ERROR] : [Uncaught Error: Class 'EasySwoole\EasySwoole\Common' not found in /www/wwwroot/easyswoole/EasySwooleEvent.php:104
+Stack trace:
+#0 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(118): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#1 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#2 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#3 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#4 /www/wwwroot/easyswoole/easyswoole(24): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#5 {main}
+  thrown at file:/www/wwwroot/easyswoole/EasySwooleEvent.php line:104]
+[2019-11-28 23:14:11][DEBUG][ERROR] : [Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(114): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/wwwroot/easyswoole/easyswoole(24): EasySwoole\EasySwoole\Comm at file:/www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2019-11-28 23:47:37][DEBUG][ERROR] : [Uncaught EasySwoole\Rpc\Exception\Exception: serve NodeManager require in /www/wwwroot/easyswoole/vendor/easyswoole/rpc/src/Rpc.php:87
+Stack trace:
+#0 /www/wwwroot/easyswoole/vendor/easyswoole/rpc/src/Rpc.php(67): EasySwoole\Rpc\Rpc->check()
+#1 /www/wwwroot/easyswoole/vendor/easyswoole/rpc/src/Rpc.php(56): EasySwoole\Rpc\Rpc->generateProcess()
+#2 /www/wwwroot/easyswoole/EasySwooleEvent.php(104): EasySwoole\Rpc\Rpc->attachToServer(Object(Swoole\Http\Server))
+#3 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(118): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#4 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#5 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#6 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunne at file:/www/wwwroot/easyswoole/vendor/easyswoole/rpc/src/Rpc.php line:87]
+[2019-11-28 23:47:57][DEBUG][ERROR] : [Uncaught EasySwoole\Rpc\Exception\Exception: serve NodeManager require in /www/wwwroot/easyswoole/vendor/easyswoole/rpc/src/Rpc.php:87
+Stack trace:
+#0 /www/wwwroot/easyswoole/vendor/easyswoole/rpc/src/Rpc.php(67): EasySwoole\Rpc\Rpc->check()
+#1 /www/wwwroot/easyswoole/vendor/easyswoole/rpc/src/Rpc.php(56): EasySwoole\Rpc\Rpc->generateProcess()
+#2 /www/wwwroot/easyswoole/EasySwooleEvent.php(104): EasySwoole\Rpc\Rpc->attachToServer(Object(Swoole\Http\Server))
+#3 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(118): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#4 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#5 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#6 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunne at file:/www/wwwroot/easyswoole/vendor/easyswoole/rpc/src/Rpc.php line:87]
+[2019-11-28 23:52:19][DEBUG][ERROR] : [Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(114): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/wwwroot/easyswoole/easyswoole(24): EasySwoole\EasySwoole\Comm at file:/www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2019-11-28 23:55:40][DEBUG][ERROR] : [Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(114): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/wwwroot/easyswoole/easyswoole(24): EasySwoole\EasySwoole\Comm at file:/www/wwwroot/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-01-07 16:47:56][DEBUG][WARNING] : [call_user_func() expects parameter 1 to be a valid callback, no array or string given at file:/vagrant_data/easyswoole/App/Event/Test.php line:33]
+[2020-01-08 09:21:19][DEBUG][ERROR] : [Uncaught Error: Call to undefined method EasySwoole\Component\Process\Config::getInstance() in /vagrant_data/easyswoole/EasySwooleEvent.php:53
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(118): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#1 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#2 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#3 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#4 /vagrant_data/easyswoole/easyswoole(24): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#5 {main}
+  thrown at file:/vagrant_data/easyswoole/EasySwooleEvent.php line:53]
+[2020-01-08 09:45:28][DEBUG][ERROR] : [Uncaught Error: Call to undefined method EasySwoole\Component\Process\Config::getInstance() in /vagrant_data/easyswoole/EasySwooleEvent.php:53
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(118): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#1 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#2 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#3 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#4 /vagrant_data/easyswoole/easyswoole(24): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#5 {main}
+  thrown at file:/vagrant_data/easyswoole/EasySwooleEvent.php line:53]
+[2020-01-08 10:06:11][DEBUG][ERROR] : [Too few arguments to function App\Task\TaskBase::__construct(), 0 passed and exactly 1 expected at file:/vagrant_data/easyswoole/App/Task/TaskBase.php line:16]
+[2020-01-08 10:37:29][DEBUG][INFO] : [日志内容]
+[2020-01-08 10:42:14][DEBUG][INFO] : [日志内容]
+[2020-01-08 10:44:00][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 10:44:00][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:175]
+[2020-01-08 10:46:04][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 10:46:04][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:175]
+[2020-01-08 10:48:19][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 10:48:19][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:175]
+[2020-01-08 10:51:27][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 10:51:27][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:175]
+[2020-01-08 10:51:52][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 10:51:52][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:179]
+[2020-01-08 10:53:11][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 10:53:11][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:184]
+[2020-01-08 11:00:27][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 11:00:27][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:184]
+[2020-01-08 11:00:45][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 11:00:45][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:184]
+[2020-01-08 11:01:10][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 11:01:10][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:184]
+[2020-01-08 11:01:30][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 11:01:30][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:188]
+[2020-01-08 11:05:04][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 11:05:04][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:189]
+[2020-01-08 11:07:41][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 11:07:41][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:189]
+[2020-01-08 11:12:20][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 11:12:21][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:189]
+[2020-01-08 11:12:27][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 11:12:27][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:189]
+[2020-01-08 11:13:50][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 11:13:50][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:189]
+[2020-01-08 11:17:27][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 11:17:27][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:189]
+[2020-01-08 11:17:50][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 11:17:50][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:189]
+[2020-01-08 11:18:47][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 11:18:47][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:189]
+[2020-01-08 11:19:31][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 11:19:31][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:189]
+[2020-01-08 11:20:36][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 11:20:36][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:189]
+[2020-01-08 11:21:43][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 11:21:43][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:189]
+[2020-01-08 11:21:56][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 11:21:56][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:189]
+[2020-01-08 11:22:07][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 11:22:07][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:189]
+[2020-01-08 13:09:55][DEBUG][NOTICE] : [Undefined index: valuse at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:199]
+[2020-01-08 13:10:13][DEBUG][NOTICE] : [Undefined index: valuse at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:199]
+[2020-01-08 13:10:32][DEBUG][ERROR] : [syntax error, unexpected end of file at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php(199) : eval()'d code line:1]
+[2020-01-08 13:10:32][DEBUG][ERROR] : [syntax error, unexpected end of file666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:191]
+[2020-01-08 13:11:54][DEBUG][ERROR] : [syntax error, unexpected end of file at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php(199) : eval()'d code line:1]
+[2020-01-08 13:11:54][DEBUG][ERROR] : [syntax error, unexpected end of file666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:191]
+[2020-01-08 13:13:42][DEBUG][ERROR] : [syntax error, unexpected 'is' (T_STRING) at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php(206) : eval()'d code line:1]
+[2020-01-08 13:13:42][DEBUG][ERROR] : [syntax error, unexpected 'is' (T_STRING)666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:191]
+[2020-01-08 13:37:20][DEBUG][ERROR] : [Uncaught Error: Class 'App\Utility\LogPusher' not found in /vagrant_data/easyswoole/EasySwooleEvent.php:172
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(118): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#1 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#2 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#3 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#4 /vagrant_data/easyswoole/easyswoole(24): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#5 {main}
+  thrown at file:/vagrant_data/easyswoole/EasySwooleEvent.php line:172]
+[2020-01-08 13:40:10][DEBUG][ERROR] : [Uncaught Error: Class 'App\Utility\LogPusher' not found in /vagrant_data/easyswoole/EasySwooleEvent.php:172
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(118): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#1 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#2 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#3 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#4 /vagrant_data/easyswoole/easyswoole(24): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#5 {main}
+  thrown at file:/vagrant_data/easyswoole/EasySwooleEvent.php line:172]
+[2020-01-08 13:41:48][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 13:41:48][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:196]
+[2020-01-08 13:42:51][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 13:42:51][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:196]
+[2020-01-08 13:46:41][DEBUG][ERROR] : [我是异常 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:166]
+[2020-01-08 13:46:42][DEBUG][ERROR] : [我是异常666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:196]
+[2020-01-08 16:08:26][DEBUG][ERROR] : [Uncaught Error: Call to undefined method App\Tool\Utility\MyQueue::getInstance() in /vagrant_data/easyswoole/EasySwooleEvent.php:206
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(118): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#1 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#2 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#3 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#4 /vagrant_data/easyswoole/easyswoole(24): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#5 {main}
+  thrown at file:/vagrant_data/easyswoole/EasySwooleEvent.php line:206]
+[2020-01-08 16:17:05][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:05][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:05][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:05][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:05][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:05][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:05][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:05][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:05][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:05][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:05][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:05][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:05][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:05][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:05][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:05][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:05][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:05][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:05][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:06][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:06][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:06][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:06][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:06][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:06][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:06][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:17:06][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:19:12][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:19:12][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:19:12][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:19:12][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:19:12][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:19:12][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:19:12][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:19:12][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:19:12][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:19:12][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:19:12][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:19:12][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 16:19:12][DEBUG][ERROR] : [Uncaught ArgumentCountError: Too few arguments to function EasySwoole\Queue\Queue::__construct(), 0 passed in /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php on line 19 and exactly 1 expected in /vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php:14
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/component/src/Singleton.php(19): EasySwoole\Queue\Queue->__construct()
+#1 /vagrant_data/easyswoole/App/Process/QueueProcess.php(21): App\Tool\Utility\MyQueue::getInstance()
+#2 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/queue/src/Queue.php line:14]
+[2020-01-08 17:28:09][DEBUG][ERROR] : [Uncaught EasySwoole\Smtp\Exception\Exception: 535 Error: authentication failed
+ in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php:140
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php(82): EasySwoole\Smtp\MailerClient->recvCodeCheck('235')
+#1 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/Mailer.php(36): EasySwoole\Smtp\MailerClient->send('1278077589@qq.c...', Object(EasySwoole\Smtp\Message\Html))
+#2 /vagrant_data/easyswoole/App/HttpController/Api/Test.php(270): EasySwoole\Smtp\Mailer->sendTo('1278077589@qq.c...', Object(EasySwoole\Smtp\Message\Html))
+#3 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php line:140]
+[2020-01-08 17:29:08][DEBUG][ERROR] : [Uncaught EasySwoole\Smtp\Exception\Exception: 535 Error: authentication failed
+ in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php:140
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php(82): EasySwoole\Smtp\MailerClient->recvCodeCheck('235')
+#1 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/Mailer.php(36): EasySwoole\Smtp\MailerClient->send('1278077589@qq.c...', Object(EasySwoole\Smtp\Message\Html))
+#2 /vagrant_data/easyswoole/App/HttpController/Api/Test.php(270): EasySwoole\Smtp\Mailer->sendTo('1278077589@qq.c...', Object(EasySwoole\Smtp\Message\Html))
+#3 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php line:140]
+[2020-01-08 17:32:54][DEBUG][ERROR] : [Uncaught EasySwoole\Smtp\Exception\Exception: 535 Error: authentication failed
+ in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php:140
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php(82): EasySwoole\Smtp\MailerClient->recvCodeCheck('235')
+#1 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/Mailer.php(36): EasySwoole\Smtp\MailerClient->send('1278077589@qq.c...', Object(EasySwoole\Smtp\Message\Html))
+#2 /vagrant_data/easyswoole/App/HttpController/Api/Test.php(270): EasySwoole\Smtp\Mailer->sendTo('1278077589@qq.c...', Object(EasySwoole\Smtp\Message\Html))
+#3 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php line:140]
+[2020-01-08 17:45:10][DEBUG][ERROR] : [Uncaught EasySwoole\Smtp\Exception\Exception: 535 Error: ��ʹ����Ȩ���¼�������뿴: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256
+ in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php:140
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php(82): EasySwoole\Smtp\MailerClient->recvCodeCheck('235')
+#1 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/Mailer.php(36): EasySwoole\Smtp\MailerClient->send('18715160785@163...', Object(EasySwoole\Smtp\Message\Html))
+#2 /vagrant_data/easyswoole/App/HttpController/Api/Test.php(292): EasySwoole\Smtp\Mailer->sendTo('18715160785@163...', Object(EasySwoole\Smtp\Message\Html))
+#3 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php line:140]
+[2020-01-08 17:47:33][DEBUG][ERROR] : [Uncaught EasySwoole\Smtp\Exception\Exception: 501 mail from address must be same as authorization user
+ in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php:140
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php(85): EasySwoole\Smtp\MailerClient->recvCodeCheck('250')
+#1 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/Mailer.php(36): EasySwoole\Smtp\MailerClient->send('18715160785@163...', Object(EasySwoole\Smtp\Message\Html))
+#2 /vagrant_data/easyswoole/App/HttpController/Api/Test.php(292): EasySwoole\Smtp\Mailer->sendTo('18715160785@163...', Object(EasySwoole\Smtp\Message\Html))
+#3 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php line:140]
+[2020-01-08 17:50:10][DEBUG][ERROR] : [Uncaught EasySwoole\Smtp\Exception\Exception: 535 Error: authentication failed
+ in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php:140
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php(82): EasySwoole\Smtp\MailerClient->recvCodeCheck('235')
+#1 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/Mailer.php(36): EasySwoole\Smtp\MailerClient->send('18715160785@163...', Object(EasySwoole\Smtp\Message\Html))
+#2 /vagrant_data/easyswoole/App/HttpController/Api/Test.php(292): EasySwoole\Smtp\Mailer->sendTo('18715160785@163...', Object(EasySwoole\Smtp\Message\Html))
+#3 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php line:140]
+[2020-01-08 17:51:26][DEBUG][ERROR] : [Uncaught EasySwoole\Smtp\Exception\Exception: 535 Error: authentication failed
+ in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php:140
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php(82): EasySwoole\Smtp\MailerClient->recvCodeCheck('235')
+#1 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/Mailer.php(36): EasySwoole\Smtp\MailerClient->send('18715160785@163...', Object(EasySwoole\Smtp\Message\Html))
+#2 /vagrant_data/easyswoole/App/HttpController/Api/Test.php(292): EasySwoole\Smtp\Mailer->sendTo('18715160785@163...', Object(EasySwoole\Smtp\Message\Html))
+#3 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php line:140]
+[2020-01-08 17:51:37][DEBUG][ERROR] : [Uncaught EasySwoole\Smtp\Exception\Exception: 535 Error: ��ʹ����Ȩ���¼�������뿴: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256
+ in /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php:140
+Stack trace:
+#0 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php(82): EasySwoole\Smtp\MailerClient->recvCodeCheck('235')
+#1 /vagrant_data/easyswoole/vendor/easyswoole/smtp/src/Mailer.php(36): EasySwoole\Smtp\MailerClient->send('18715160785@163...', Object(EasySwoole\Smtp\Message\Html))
+#2 /vagrant_data/easyswoole/App/HttpController/Api/Test.php(292): EasySwoole\Smtp\Mailer->sendTo('18715160785@163...', Object(EasySwoole\Smtp\Message\Html))
+#3 {main}
+  thrown at file:/vagrant_data/easyswoole/vendor/easyswoole/smtp/src/MailerClient.php line:140]
+[2020-01-08 18:05:55][DEBUG][WARNING] : [Declaration of App\HttpController\Api\Test::onRequest(string $action): ?bool should be compatible with EasySwoole\Http\AbstractInterface\Controller::onRequest(?string $action): ?bool at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:32]
+[2020-01-08 18:05:55][DEBUG][ERROR] : [Return value of App\HttpController\Api\Test::onRequest() must be of the type bool or null, none returned at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:305]
+[2020-01-08 18:05:55][DEBUG][ERROR] : [Return value of App\HttpController\Api\Test::onRequest() must be of the type bool or null, none returned666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:203]
+[2020-01-08 18:06:04][DEBUG][ERROR] : [Return value of App\HttpController\Api\Test::onRequest() must be of the type bool or null, none returned at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:305]
+[2020-01-08 18:06:04][DEBUG][ERROR] : [Return value of App\HttpController\Api\Test::onRequest() must be of the type bool or null, none returned666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:203]
+[2020-01-08 18:06:06][DEBUG][ERROR] : [Return value of App\HttpController\Api\Test::onRequest() must be of the type bool or null, none returned at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:305]
+[2020-01-08 18:06:06][DEBUG][ERROR] : [Return value of App\HttpController\Api\Test::onRequest() must be of the type bool or null, none returned666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:203]
+[2020-01-08 18:06:06][DEBUG][ERROR] : [Return value of App\HttpController\Api\Test::onRequest() must be of the type bool or null, none returned at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:305]
+[2020-01-08 18:06:06][DEBUG][ERROR] : [Return value of App\HttpController\Api\Test::onRequest() must be of the type bool or null, none returned666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:203]
+[2020-01-08 18:06:07][DEBUG][ERROR] : [Return value of App\HttpController\Api\Test::onRequest() must be of the type bool or null, none returned at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:305]
+[2020-01-08 18:06:07][DEBUG][ERROR] : [Return value of App\HttpController\Api\Test::onRequest() must be of the type bool or null, none returned666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:203]
+[2020-01-08 18:06:08][DEBUG][ERROR] : [Return value of App\HttpController\Api\Test::onRequest() must be of the type bool or null, none returned at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:305]
+[2020-01-08 18:06:08][DEBUG][ERROR] : [Return value of App\HttpController\Api\Test::onRequest() must be of the type bool or null, none returned666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:203]
+[2020-01-08 18:07:34][DEBUG][WARNING] : [Declaration of App\HttpController\Api\Test::onRequest(string $action): ?bool should be compatible with EasySwoole\Http\AbstractInterface\Controller::onRequest(?string $action): ?bool at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:32]
+[2020-01-08 18:11:32][DEBUG][WARNING] : [Declaration of App\HttpController\Api\Test::onRequest(string $action): ?bool should be compatible with EasySwoole\Http\AbstractInterface\Controller::onRequest(?string $action): ?bool at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:32]
