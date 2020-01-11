@@ -5,6 +5,7 @@ namespace App\HttpController\Api;
 
 
 use App\Lib\Validate\BasicCheck;
+use App\Service\PoolService;
 use App\Tool\Utility\MyQueue;
 use EasySwoole\AtomicLimit\AtomicLimit;
 use EasySwoole\EasySwoole\Core;
@@ -300,14 +301,94 @@ class Test extends AnnotationController
 
     public function onRequest(?string $action): ?bool
     {
-        if(AtomicLimit::isAllow('api')){
-            //echo 'api success';
-            return true;
-        }else{
-            //echo 'api error';
-            return false;
-        }
+        return true;
+//        if(AtomicLimit::isAllow('api')){
+//            echo 'api success';
+//            return true;
+//        }else{
+//            echo 'api error';
+//            return false;
+//        }
 
     }
+
+    public function addRedis()
+    {
+        $redis = new \Redis();
+        $redis->connect('127.0.0.1','6379');
+        $num = 100;
+        for($i=0;$i<$num;$i++){
+            $redis->lPush('es_key',$i);
+        }
+        echo 'redis add success';
+
+    }
+
+    public function redisPool()
+    {
+//        $redis = new \EasySwoole\Redis\Redis(new \EasySwoole\Redis\Config\RedisConfig([
+//            'host' => '127.0.0.1',
+//            'port' => '6379',
+//            'auth' => '',
+//            'serialize' => \EasySwoole\Redis\Config\RedisConfig::SERIALIZE_NONE
+//        ]));
+//        $value = $redis->lPop('es_key');
+
+//        echo $value;
+        //var_dump('111');
+
+//            //defer方式获取连接
+//            $redis = \EasySwoole\RedisPool\Redis::defer('redis');//字段回收对象
+//            $value = $redis->lPop('es_key');
+//            echo $value;
+
+
+        //这样获取链接必须回收
+//        $redisPool  = \EasySwoole\RedisPool\Redis::getInstance()->get('redis');
+//        $redis = $redisPool->getObj();
+//        $value = $redis->lPop('es_key');
+//         echo $value;
+//        $redisPool->recycleObj($redis);#回收
+        //$i = 50;
+        //echo 'request entry';
+//        go(function (){
+//            $pool = new PoolService();
+//            $data = $pool->redis_defer();
+//            //$data = $pool->redis_obj();
+//            $this->writeJson(200,['value'=>$data],'success');
+//        });
+//        go(function (){
+//            $pool = new PoolService();
+//            $data = $pool->redis_defer();
+//            //$data = $pool->redis_obj();
+//            $this->writeJson(200,['value'=>$data],'success');
+//        });
+//        go(function (){
+//
+//        });
+
+        $pool = new PoolService();
+        $data = $pool->redis_defer();
+        //$data = $pool->redis_obj();
+        //$this->writeJson(200,['value'=>$data],'success');
+
+        $pool = new PoolService();
+        $data = $pool->redis_defer();
+        //$data = $pool->redis_obj();
+        //$this->writeJson(200,['value'=>$data],'success');
+
+        $pool = new PoolService();
+        $data = $pool->redis_defer();
+        //$data = $pool->redis_obj();
+        $this->writeJson(200,['value'=>$data],'success');
+
+    }
+
+
+    public function mysqlPool()
+    {
+
+    }
+
 
 }

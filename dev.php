@@ -8,7 +8,7 @@ return [
         'SOCK_TYPE' => SWOOLE_TCP,
         'RUN_MODEL' => SWOOLE_PROCESS,
         'SETTING' => [
-            'worker_num' => 8,
+            'worker_num' => 2,
             'reload_async' => true,
             'max_wait_time'=>3
         ],
@@ -34,11 +34,12 @@ return [
         'POOL_TIME_OUT' => '0.1',
     ],
     /*################ REDIS CONFIG ##################*/
+
     'REDIS' => [
         'host'          => '127.0.0.1',
         'port'          => '6379',
         'auth'          => '',
-        'POOL_MAX_NUM'  => '20',
+        'POOL_MAX_NUM'  => '6',
         'POOL_MIN_NUM'  => '5',
         'POOL_TIME_OUT' => '0.1',
     ],

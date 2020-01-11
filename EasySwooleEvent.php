@@ -58,7 +58,8 @@ class EasySwooleEvent implements Event
 
     public static function mainServerCreate(EventRegister $register)
     {
-        //注册mysql mysql_config
+
+//        //注册mysql mysql_config
         $mysql_config = Config::getInstance()->getConf('MYSQL');//var_dump($mysql_config);
         $config = new \EasySwoole\ORM\Db\Config($mysql_config);
         DbManager::getInstance()->addConnection(new Connection($config));
@@ -219,9 +220,16 @@ class EasySwooleEvent implements Event
 //        });
 
 
-        AtomicLimit::getInstance()->addItem('default')->setMax(200);
-        AtomicLimit::getInstance()->addItem('api')->setMax(2);
-        AtomicLimit::getInstance()->enableProcessAutoRestore(ServerManager::getInstance()->getSwooleServer(),10*1000);
+//        AtomicLimit::getInstance()->addItem('default')->setMax(200);
+//        AtomicLimit::getInstance()->addItem('api')->setMax(2);
+//        AtomicLimit::getInstance()->enableProcessAutoRestore(ServerManager::getInstance()->getSwooleServer(),10*1000);
+
+        //redis 链接池
+
+        //redis连接池注册(config默认为127.0.0.1,端口6379)
+        \EasySwoole\RedisPool\Redis::getInstance()->register('redis',(new RedisConfig(Config::getInstance()->getConf('REDIS'))));
+
+
 
 
     }

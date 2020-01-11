@@ -34,6 +34,9 @@ class Router extends AbstractRouter
             $route->get('/queue','/Api/Test/queue');
             $route->get('/cacheQueue','/Api/Test/cacheQueue');
             $route->get('/mail','/Api/Test/mail');
+            $route->get('/addRedis','/Api/Test/addRedis');
+            $route->get('/redisPool','/Api/Test/redisPool');
+            $route->get('/mysqlPool','/Api/Test/mysqlPool');
         });
 
         $routeCollector->post('/test/test', '/Api/Test/test');
