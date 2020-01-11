@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fde5dda04bfe2f07300910a147803721",
+    "content-hash": "b529c4e0ba8d436286ce8677c1101245",
     "packages": [
         {
             "name": "dragonmantank/cron-expression",
@@ -727,6 +727,46 @@
                 "swoole"
             ],
             "time": "2019-10-31T03:52:05+00:00"
+        },
+        {
+            "name": "easyswoole/policy",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/easy-swoole/policy.git",
+                "reference": "c23903e7e5d8ef2e15b14b04841d0de27c8b1628"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/easy-swoole/policy/zipball/c23903e7e5d8ef2e15b14b04841d0de27c8b1628",
+                "reference": "c23903e7e5d8ef2e15b14b04841d0de27c8b1628",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "easyswoole/spl": "^1.1",
+                "ext-json": ">=1.0",
+                "php": "^7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "EasySwoole\\Policy\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "韩文博",
+                    "email": "9476400@qq.com"
+                }
+            ],
+            "time": "2019-07-03T15:17:07+00:00"
         },
         {
             "name": "easyswoole/pool",

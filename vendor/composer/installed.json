@@ -748,6 +748,48 @@
         ]
     },
     {
+        "name": "easyswoole/policy",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/easy-swoole/policy.git",
+            "reference": "c23903e7e5d8ef2e15b14b04841d0de27c8b1628"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/easy-swoole/policy/zipball/c23903e7e5d8ef2e15b14b04841d0de27c8b1628",
+            "reference": "c23903e7e5d8ef2e15b14b04841d0de27c8b1628",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "easyswoole/spl": "^1.1",
+            "ext-json": ">=1.0",
+            "php": "^7.1"
+        },
+        "time": "2019-07-03T15:17:07+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "EasySwoole\\Policy\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "韩文博",
+                "email": "9476400@qq.com"
+            }
+        ]
+    },
+    {
         "name": "easyswoole/pool",
         "version": "1.0.2",
         "version_normalized": "1.0.2.0",

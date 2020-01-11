@@ -367,20 +367,20 @@ class Test extends AnnotationController
 //
 //        });
 
-        $pool = new PoolService();
-        $data = $pool->redis_defer();
-        //$data = $pool->redis_obj();
-        //$this->writeJson(200,['value'=>$data],'success');
-
-        $pool = new PoolService();
-        $data = $pool->redis_defer();
-        //$data = $pool->redis_obj();
-        //$this->writeJson(200,['value'=>$data],'success');
-
-        $pool = new PoolService();
-        $data = $pool->redis_defer();
-        //$data = $pool->redis_obj();
-        $this->writeJson(200,['value'=>$data],'success');
+//        $pool = new PoolService();
+//        $data = $pool->redis_defer();
+//        //$data = $pool->redis_obj();
+//        //$this->writeJson(200,['value'=>$data],'success');
+//
+//        $pool = new PoolService();
+//        $data = $pool->redis_defer();
+//        //$data = $pool->redis_obj();
+//        //$this->writeJson(200,['value'=>$data],'success');
+//
+//        $pool = new PoolService();
+//        $data = $pool->redis_defer();
+//        //$data = $pool->redis_obj();
+//        $this->writeJson(200,['value'=>$data],'success');
 
     }
 
