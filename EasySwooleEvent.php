@@ -229,9 +229,6 @@ class EasySwooleEvent implements Event
         //redis连接池注册(config默认为127.0.0.1,端口6379)
         \EasySwoole\RedisPool\Redis::getInstance()->register('redis',(new RedisConfig(Config::getInstance()->getConf('REDIS'))));
 
-
-
-
     }
 
     public static function onRequest(Request $request, Response $response): bool
