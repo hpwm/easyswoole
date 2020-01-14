@@ -54,3 +54,24 @@ Stack trace:
 [2020-01-11 16:49:42][DEBUG][ERROR] : [Call to a member function lPop() on null at file:/vagrant_data/easyswoole/App/Service/PoolService.php line:33]
 [2020-01-11 16:49:42][DEBUG][ERROR] : [Call to a member function lPop() on null666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:204]
 [2020-01-11 17:34:29][DEBUG][ERROR] : [Swoole\Server::start(): require onMessage callback at file:/vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php line:140]
+[2020-01-13 09:49:03][DEBUG][ERROR] : [Argument 1 passed to Pheanstalk\Pheanstalk::__construct() must be an instance of Pheanstalk\Connection, string given, called in /vagrant_data/easyswoole/App/HttpController/Api/Test.php on line 398 at file:/vagrant_data/easyswoole/vendor/pda/pheanstalk/src/Pheanstalk.php line:30]
+[2020-01-13 09:49:03][DEBUG][ERROR] : [Argument 1 passed to Pheanstalk\Pheanstalk::__construct() must be an instance of Pheanstalk\Connection, string given, called in /vagrant_data/easyswoole/App/HttpController/Api/Test.php on line 398666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:206]
+[2020-01-13 09:52:59][DEBUG][WARNING] : [socket_connect(): unable to connect [111]: Connection refused at file:/vagrant_data/easyswoole/vendor/pda/pheanstalk/src/Socket/SocketSocket.php line:48]
+[2020-01-13 09:52:59][DEBUG][ERROR] : [Socket error 111: Connection refused at file:/vagrant_data/easyswoole/vendor/pda/pheanstalk/src/Socket/SocketSocket.php line:50]
+[2020-01-13 09:52:59][DEBUG][ERROR] : [Socket error 111: Connection refused666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:206]
+[2020-01-13 10:18:11][DEBUG][ERROR] : [Uncaught Swoole\Error: API must be called in the coroutine in /vagrant_data/easyswoole/App/Command/Beanstalkd.php:31
+Stack trace:
+#0 /vagrant_data/easyswoole/App/Command/Beanstalkd.php(31): Swoole\Coroutine::exec('/usr/local/bin/...')
+#1 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): App\Command\Beanstalkd->exec(Array)
+#2 /vagrant_data/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('beastalkd', Array)
+#3 /vagrant_data/easyswoole/easyswoole(24): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#4 {main}
+  thrown at file:/vagrant_data/easyswoole/App/Command/Beanstalkd.php line:31]
+[2020-01-13 10:40:13][DEBUG][WARNING] : [Invalid argument supplied for foreach() at file:/vagrant_data/easyswoole/App/Command/Beanstalkd.php line:39]
+[2020-01-13 11:01:11][DEBUG][WARNING] : [preg_split(): Unknown modifier '?' at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:401]
+[2020-01-13 11:01:22][DEBUG][WARNING] : [preg_split(): Unknown modifier '$' at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:401]
+[2020-01-13 14:39:24][DEBUG][WARNING] : [socket_connect(): unable to connect [111]: Connection refused at file:/vagrant_data/easyswoole/vendor/pda/pheanstalk/src/Socket/SocketSocket.php line:48]
+[2020-01-13 14:39:24][DEBUG][ERROR] : [Socket error 111: Connection refused at file:/vagrant_data/easyswoole/vendor/pda/pheanstalk/src/Socket/SocketSocket.php line:50]
+[2020-01-13 14:39:24][DEBUG][ERROR] : [Socket error 111: Connection refused666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:206]
+[2020-01-13 14:39:49][DEBUG][ERROR] : [Argument 1 passed to Pheanstalk\Pheanstalk::put() must be of the type string, array given, called in /vagrant_data/easyswoole/App/HttpController/Api/Test.php on line 403 at file:/vagrant_data/easyswoole/vendor/pda/pheanstalk/src/Pheanstalk.php line:223]
+[2020-01-13 14:39:49][DEBUG][ERROR] : [Argument 1 passed to Pheanstalk\Pheanstalk::put() must be of the type string, array given, called in /vagrant_data/easyswoole/App/HttpController/Api/Test.php on line 403666 at file:/vagrant_data/easyswoole/App/HttpController/Api/Test.php line:206]

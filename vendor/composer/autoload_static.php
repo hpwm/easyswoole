@@ -22,6 +22,7 @@ class ComposerStaticInit99ea8eac1f72c5ccddc9c719cab42b73
         array (
             'Psr\\Http\\Message\\' => 17,
             'PhpParser\\' => 10,
+            'Pheanstalk\\' => 11,
         ),
         'F' => 
         array (
@@ -50,6 +51,8 @@ class ComposerStaticInit99ea8eac1f72c5ccddc9c719cab42b73
             'EasySwoole\\Mysqli\\' => 18,
             'EasySwoole\\Log\\' => 15,
             'EasySwoole\\Http\\' => 16,
+            'EasySwoole\\HttpClient\\Test\\' => 27,
+            'EasySwoole\\HttpClient\\' => 22,
             'EasySwoole\\FastCache\\' => 21,
             'EasySwoole\\EasySwoole\\' => 22,
             'EasySwoole\\DDL\\Test\\' => 20,
@@ -60,6 +63,7 @@ class ComposerStaticInit99ea8eac1f72c5ccddc9c719cab42b73
             'EasySwoole\\Component\\Tests\\' => 27,
             'EasySwoole\\Component\\' => 21,
             'EasySwoole\\AtomicLimit\\' => 23,
+            'EasySwoole\\Apollo\\' => 18,
             'EasySwoole\\Annotation\\Tests\\' => 28,
             'EasySwoole\\Annotation\\' => 22,
         ),
@@ -93,6 +97,10 @@ class ComposerStaticInit99ea8eac1f72c5ccddc9c719cab42b73
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'Pheanstalk\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/pda/pheanstalk/src',
         ),
         'FastRoute\\' => 
         array (
@@ -182,6 +190,14 @@ class ComposerStaticInit99ea8eac1f72c5ccddc9c719cab42b73
         array (
             0 => __DIR__ . '/..' . '/easyswoole/http/src',
         ),
+        'EasySwoole\\HttpClient\\Test\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/easyswoole/http-client/tests',
+        ),
+        'EasySwoole\\HttpClient\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/easyswoole/http-client/src',
+        ),
         'EasySwoole\\FastCache\\' => 
         array (
             0 => __DIR__ . '/..' . '/easyswoole/fast-cache/src',
@@ -221,6 +237,10 @@ class ComposerStaticInit99ea8eac1f72c5ccddc9c719cab42b73
         'EasySwoole\\AtomicLimit\\' => 
         array (
             0 => __DIR__ . '/..' . '/easyswoole/atomic-limit/src',
+        ),
+        'EasySwoole\\Apollo\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/easyswoole/apollo/src',
         ),
         'EasySwoole\\Annotation\\Tests\\' => 
         array (

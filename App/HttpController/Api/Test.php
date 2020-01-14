@@ -30,6 +30,8 @@ use EasySwoole\RedisPool\RedisPool;
 use EasySwoole\Redis\Config\RedisConfig;
 use EasySwoole\Rpc\NodeManager\RedisManager;
 use EasySwoole\Component\Context\ContextManager;
+use Pheanstalk\Pheanstalk;
+
 class Test extends AnnotationController
 {
     public function index()
@@ -390,5 +392,16 @@ class Test extends AnnotationController
 
     }
 
+    /*@var beastalkd*/
+    public function beanstalkd()
+    {
+        $pheanstalk = Pheanstalk::create('127.0.0.1','11300');//root      7924  7785  0 10:49 pts/1    00:00:00 ./beanstalkd -l 0.0.0.0 -p 11300
+//        $str = 'root      7924  7785  0 10:49 pts/1    00:00:00 ./beanstalkd -l 0.0.0.0 -p 11300';
+//        $pattern = '/[\s]+/';
+        //$result = preg_split($pattern,$str);
+        var_dump($pheanstalk->stats());
+        //$pheanstalk->useTube('test')->put(json_encode(['data'=>['id'=>1,'name'=>'hp']]));
+
+    }
 
 }

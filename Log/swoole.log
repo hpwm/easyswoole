@@ -1,2 +1,10 @@
 [2020-01-11 17:00:02 *26513.0]	NOTICE	swFactoryProcess_finish (ERRNO 1005): connection[fd=122] does not exists
 [2020-01-11 17:00:51 *26513.0]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 410 byte failed, because connection[fd=146] is closed
+[2020-01-14 10:07:41 $7062.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-01-14 10:07:41 #7061.2]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-01-14 10:07:41 #7061.2]	INFO	Server is shutdown now
+[2020-01-14 10:07:41 *7066.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-01-14 10:07:41 *7066.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-01-14 10:07:41 *7065.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-01-14 10:07:41 *7065.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-01-14 10:07:41 $7062.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1

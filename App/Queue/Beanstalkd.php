@@ -9,9 +9,15 @@
 namespace App\Queue;
 
 
+use EasySwoole\Component\Singleton;
 use EasySwoole\Queue\QueueDriverInterface;
 
 class Beanstalkd
 {
+    use Singleton;
 
+    public function __construct()
+    {
+
+    }
 }

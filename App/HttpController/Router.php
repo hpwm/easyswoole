@@ -37,6 +37,7 @@ class Router extends AbstractRouter
             $route->get('/addRedis','/Api/Test/addRedis');
             $route->get('/redisPool','/Api/Test/redisPool');
             $route->get('/mysqlPool','/Api/Test/mysqlPool');
+            $route->get('/beanstalkd','/Api/Test/beanstalkd');
         });
 
         $routeCollector->post('/test/test', '/Api/Test/test');

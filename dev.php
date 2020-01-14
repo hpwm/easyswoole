@@ -51,4 +51,9 @@ return [
         'db_host'=>'127.0.0.1',
         'sql_file_path'=>'/www/backup/swoole_task.sql',
     ],
+
+    //beastalkd
+    'BEANSTALKD'=>[
+        'port'=>11300,
+    ],
 ];
